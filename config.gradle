@@ -1,0 +1,26 @@
+ext{
+    //TODO android 配置
+    android = [
+            compileSdkVersion:30,
+            buildToolsVersion:"30.0.1",
+            applicationId:"com.zts.ryx",
+            minSdkVersion:16,
+            targetSdkVersion:30,
+            versionCode:1,
+            versionName:"1.0",
+            testInstrumentationRunner:"androidx.test.runner.AndroidJUnitRunner"
+    ]
+    dependencies = [
+            "appcompat":'androidx.appcompat:appcompat:1.2.0',
+            "constraintlayout":'androidx.constraintlayout:constraintlayout:2.0.2',
+            "gson":'com.google.code.gson:gson:2.8.0',
+            "glide":'com.github.bumptech.glide:glide:4.9.0',
+            "banner":'com.youth.banner:banner:1.4.10',
+            "okhttp3:logging-interceptor":'com.squareup.okhttp3:logging-interceptor:3.4.1',
+            "okgo":'com.lzy.net:okgo:3.0.4',
+            "BaseRecyclerViewAdapterHelper":'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.22',
+            "recyclerview":'com.android.support:recyclerview-v7:28.0.0',
+            "SmartRefreshLayout":'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0',
+            "eventbus":'org.greenrobot:eventbus:3.1.1'
+    ]
+}
